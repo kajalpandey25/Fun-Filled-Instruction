@@ -1,0 +1,7 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(219, 45%, 63%);
+    padding-top: 100px;
+}

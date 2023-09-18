@@ -21,7 +21,7 @@ function TodoReducer(state, action){
    return newTodoList;
 
   } else if(action.type == 'delete_todo'){
-    const newTodoList = todos.filter(todo => todo.id != action.payload.id);
+    const newTodoList = state.filter(todo => todo.id != action.payload.id);
     return newTodoList;
 
   }
